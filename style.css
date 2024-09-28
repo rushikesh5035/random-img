@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4f1787;
+  min-height: 100vh;
+}
+.containe {
+  width: 600px;
+  border: 2px solid #4f1787;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 30px 25px 30px 25px;
+}
+
+button {
+  background-color: #8b0000;
+  color: #fff;
+}

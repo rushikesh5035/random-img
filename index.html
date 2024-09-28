@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="containe">
+      <!-- Amount Div -->
+      <div class="amount" style="padding-left: 40px;">
+        <div class="row mb-4">
+          <label for="inputAmount" class="col-sm-4 col-form-label"
+            >Enter Amount :</label
+          >
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="inputAmount" />
+          </div>
+        </div>
+      </div>
+
+      <!-- From -->
+      <div class="from" >
+        <div class="row mb-4" style="padding-left: 40px;">
+          <label for="inputFrom" class="col-sm-4 col-form-label"
+            >Base Currency :</label
+          >
+          <div class="col-sm-6">
+            <label class="visually-hidden" for="specificSizeSelect"></label>
+            <select class="form-select" id="specificSizeSelect">
+              <option selected>Select Currency...</option>
+              <option value="USD">USD</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- TO -->
+        <div class="To">
+          <div class="row mb-4" style="padding-left: 40px;">
+            <label for="inputFrom" class="col-sm-4 col-form-label"
+              >Target Currency :</label
+            >
+            <div class="col-sm-6">
+              <label class="visually-hidden" for="specificSizeSelect"></label>
+              <select class="form-select" id="specificSizeSelect">
+                <option selected>Select Currency...</option>
+                <option value="USD">USD</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+      </div>
+
+      <!-- Button -->
+      <div class="text-center">
+        <button class="btn btn-secondary" type="button" style="background-color: blueviolet;">Get Exchange Rates</button>
+      </div>
+
+      
+
+    </div>
+    
+    
+  </body>
+</html>
